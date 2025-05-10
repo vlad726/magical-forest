@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(49, 180, 106);
+}
+
+nav a{
+    position: absolute;
+    left: -180px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+
+nav a:hover{
+    left: 0px;
+}
+
+
+.about{
+    color: rgb(97, 245, 126);;
+    top: 130px;
+    background-color: rgb(137, 79, 12);
+}
+
+
+.blog{
+     color: rgb(97, 245, 126);;
+    top: 220px;
+    background-color: rgb(137, 79, 12);
+}
+
+.projects{
+     color: rgb(97, 245, 126);;
+    top: 310px;
+    background-color: rgb(137, 79, 12);
+}
+
+
+.contact{
+     color: rgb(97, 245, 126);;
+    top: 400px;
+    background-color: rgb(137, 79, 12);
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(97, 245, 126);
+    display: flex;
+    border-top: 5px solid rgb(137, 79, 12);
+    border-bottom: 5px solid rgb(137, 79, 12);
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.topone{
+    margin-top: 200px;
+}
+
+a{
+    background-color: rgb(60, 159, 103);
+}
+
+h1{
+    color: rgb(97, 245, 126);
+}
+
+p{
+    color: rgb(137, 79, 12);
+}
+
+.fhj{
+     width:100px;
+}
+
+.fddf{
+    text-align: center;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 16%;
+    width: 1000px;
+    background-color: rgb(72, 177, 118); 
+    padding-top: 20px;
+}
+
+h1{
+    border-top: 5px solid rgb(137, 79, 12);
+    border-bottom: 5px solid rgb(137, 79, 12);
+}
+
+.gj{
+    color: rgb(97, 245, 126);
+}
+
+.fhj:hover {
+     position: absolute;
+    transform: translateY(100px) translateX(-100px);
+    transition: 6s ease-in;
+    width: 900px;
+    height: 500px;
+}
